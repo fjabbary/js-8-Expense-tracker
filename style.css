@@ -1,0 +1,51 @@
+body {
+    background: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 33%;
+    margin: 40px auto;
+    padding: 40px 0;
+}
+
+
+.title {
+    text-align: center;
+}
+.income-expense {
+    background: #ffffff;
+    box-shadow: 2px 2px 2px #ccc;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+.income, .expense {
+    width: 50%;
+    text-align: center;
+}
+
+.income {
+    border-right: 1px solid #ccc;
+}
+li.list-group-item {
+    box-shadow: 1px 1px 1px #ccc;
+    margin-bottom: 5px;
+    
+}
+.green {
+    border-right: 3px solid green;
+}
+.red {
+    border-right: 3px solid red;
+}
+.btn-danger {
+    display: none;
+}
+li:hover .btn-danger{
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+}
